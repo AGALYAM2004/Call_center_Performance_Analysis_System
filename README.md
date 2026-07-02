@@ -190,17 +190,7 @@ The system automatically handles updates across all charts, distributions, and m
 
 Aspiring Data Analyst
 
-**Skills**
 
-- Python
-- SQL
-- Excel
-- Power BI
-- Streamlit
-- Pandas
-- Matplotlib
-- Git & GitHub
 
----
 
 # ⭐ If you found this project helpful, consider giving it a Star on GitHub!
