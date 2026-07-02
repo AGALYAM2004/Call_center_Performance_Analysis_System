@@ -1,0 +1,190 @@
+# 🎧 ConnectCare Call Center Customer Service Performance Analysis
+
+An interactive, data-driven platform built using **Python, Streamlit, Excel, Pandas, Matplotlib, and GitHub** to analyze, track, and visualize call center performance metrics, representative productivity, and customer purchasing behaviors.
+
+The dashboard helps management understand total call handling capacity, conversion revenue, customer satisfaction ratings, active client distribution, and longitudinal agent trends through real-time visualizations.
+
+---
+
+## 📌 Project Overview
+
+Optimizing customer support efficiency and conversion capability is a core objective across consumer-oriented environments. Call centers collect substantial operational logs daily, making it critical to programmatic profile-active trends to isolate top performers, workload issues, and high-value customer groups.
+
+This project deep-dives into structured call center logs to evaluate:
+
+- High-level business performance metrics
+- Representative workload distribution & quality ratings
+- Sales revenue conversions mapped to performance
+- Call duration behavioral distributions
+- High-value customer purchase segmentation
+- Tactical, data-backed operational adjustments
+
+An interactive **Streamlit Dashboard** allows stakeholders to interface with underlying datasets and digest real-time metrics flawlessly.
+
+---
+
+# 📊 Dashboard Preview
+
+The application provisions a unified, panoramic operational canvas evaluating business KPIs, productivity matrices, time-series volume distributions, and retention graphs.
+
+<p align="center">
+<img src="image_600257.jpg" width="100%">
+</p>
+
+---
+
+# 🎯 Business Problem
+
+Managing customer-facing workflows requires balancing operational speed against revenue conversion and experience quality[cite: 1]. 
+
+Management often faces blindspots identifying:
+
+- Which specific agents generate the highest sales return vs. ticket workload?[cite: 1]
+- Are longer call durations directly yielding larger order checks?[cite: 1]
+- When do transaction thresholds and system inquiries experience peak periodic spikes?[cite: 1]
+- Who are the primary power-purchasers sustaining operational gross volume?[cite: 1]
+
+This dashboard actively clarifies these operational unknowns using interactive graphical insights[cite: 1].
+
+---
+
+# 🎯 Project Objectives
+
+- Assess aggregated organizational KPIs (Volume, Revenue, Rating, Active Accounts)[cite: 1].
+- Formulate individual performance matrices evaluating agent load capacity against conversion quality[cite: 1].
+- Map out timeline distribution line graphs assessing monthly transaction and call volume variations[cite: 1].
+- Establish customer tracking graphs to identify high-value consumer profiles[cite: 1].
+- Deploy an intuitive front-end business application tool for stakeholder distribution[cite: 1].
+
+---
+
+# 📁 Dataset Information
+
+**Dataset:** ConnectCare Operational Logs Dataset[cite: 1]
+
+**Rows:** 1,000 Records[cite: 1]
+
+**Unique Customer Sample:** 15 Active Profiles[cite: 1]
+
+The transactional database preserves:
+
+- Unique Call IDs & Customer IDs[cite: 1]
+- Call Duration Metrics[cite: 1]
+- Assigned Representatives[cite: 1]
+- Timestamps / Dates of Calls[cite: 1]
+- Final Purchase Conversions[cite: 1]
+- CSAT Customer Satisfaction Ratings[cite: 1]
+
+---
+
+# 🛠 Tools & Technologies
+
+| Tool | Purpose |
+|-------|----------|
+| Python | Data Processing, Inversion & Application Modeling[cite: 1] |
+| Pandas / NumPy | Tabular Pipeline Architecture, Imputation & Type Casting[cite: 1] |
+| Matplotlib / Seaborn | Chart Render Engine & Graphical Plot Formats[cite: 1] |
+| Streamlit | Web Application GUI Architecture & Interface Layout[cite: 1] |
+| Excel | Raw Storage Data Matrix[cite: 1] |
+| Git & GitHub | Distribution Version Control & Documentation Tracking[cite: 1] |
+
+---
+
+# 📈 Dashboard Features
+
+### 📌 Business KPIs
+
+The top viewport delivers high-level summaries across key focus segments:
+
+- **Total Calls:** 1,000 total interactions tracked[cite: 1].
+- **Total Purchase:** Aggregated revenue of $96,690 generated via system closures[cite: 1].
+- **Avg Rating:** A mean service quality baseline score of 3.88 out of 5.00[cite: 1].
+- **Customers:** 15 high-profile active consumer accounts mapped[cite: 1].
+
+---
+
+### 📊 Top 5 Representatives by Calls
+
+A specialized pie chart isolating agent workload contributions:
+
+- Identifies representative **R02** at peak volume handling **21.8%** of the entire log load[cite: 1].
+- Places **R03** and **R05** right behind managing **20.7%** and **20.0%** respectively[cite: 1].
+
+---
+
+### 📊 Call Duration vs Purchase Analysis
+
+A descriptive coordinate scatter plot tracing durations directly against closed check sizes:
+
+- Evaluates transaction values distributed from $20 to $225 across specific interaction times[cite: 1].
+- Helps managers observe optimal conversation runtimes corresponding to maximum financial check sizes[cite: 1].
+
+---
+
+### ⭐ Purchase Generated by Representative
+
+A vertical bar chart evaluating the gross financial revenue driven by each agent:
+
+- Identifies **R03** and **R02** leading the system with the highest conversion values[cite: 1].
+- Helps measure direct sales capabilities instead of tracking bare processing volume alone[cite: 1].
+
+---
+
+### 👥 Monthly Operational Trends
+
+Paired line graphs evaluating system fluctuations side-by-side across the operational year:
+
+- **Monthly Purchase Trend:** Documents a massive seasonal purchasing spike during the month of **June**[cite: 1].
+- **Monthly Call Volume:** Maps a corresponding spike in call volumes in **June**, validating a direct tie between transaction surges and contact loads[cite: 1].
+
+---
+
+### ⏱ Average Rating by Representative
+
+Bar chart detailing individual customer feedback parameters:
+
+- Shows representative **R01** managing the highest customer satisfaction average score[cite: 1].
+- Confirms all operational agents maintain high, competitive performance baselines (~3.8+)[cite: 1].
+
+---
+
+### 📉 Top 10 Customers by Purchase
+
+Bar chart filtering and ranking customer segments by spending levels:
+
+- Recognizes accounts **C0006**, **C0004**, and **C0007** as the highest financial spenders[cite: 1].
+- Allows management to prioritize targeted corporate retention accounts and high-value customer rewards[cite: 1].
+
+---
+
+# 🎛 Dashboard Filters
+
+Users can segment live visualizations using the sidebar component:
+
+- Operational Month
+- Assigned Representative
+- Customer ID Key
+
+The system automatically handles updates across all charts, distributions, and metric labels instantly[cite: 1].
+
+---
+
+# 💡 Key Insights
+
+- Call volume and closure revenue move tightly together, reaching peak transaction activity during **June**[cite: 1].
+- While agent **R02** handles the absolute highest volume of calls, **R03** is the top revenue generator[cite: 1].
+- Customer satisfaction remains stable and high system-wide, with **R01** setting the highest standard[cite: 1].
+- High-value client profiles (such as **C0006** and **C0004**) generate an essential share of total system purchases[cite: 1].
+
+---
+
+# ✅ Business Recommendations
+
+- **Balance Agent Loads:** Route more sales calls to high-converting agents like **R03**, and allocate secondary tasks to high-volume agents like **R02**[cite: 1].
+- **Scale for Seasonality:** Add part-time support capacity ahead of the **June** peak to handle the expected surge in call volume and sales[cite: 1].
+- **VIP Rewards Program:** Roll out a premium tier loyalty program for power-spenders like **C0006** and **C0004** to boost retention[cite: 1].
+- **Best Practice Training:** Have top-rated agent **R01** share call strategies with the rest of the team to improve overall service quality[cite: 1].
+
+---
+
+# 📂 Project Structure
