@@ -28,7 +28,7 @@ An interactive **Streamlit Dashboard** allows stakeholders to interface with und
 The application provisions a unified, panoramic operational canvas evaluating business KPIs, productivity matrices, time-series volume distributions, and retention graphs.
 
 <p align="center">
-<img src="image_600257.jpg" width="100%">
+<img src="images/call_center dashboard preview.png" width="100%">
 </p>
 
 ---
